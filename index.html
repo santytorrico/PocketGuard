@@ -1,14 +1,16 @@
 <html>
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" />
+    <h1>Totalizer</h1>
+    <form id="transaction-form">
+      <label for="income">Enter income:</label>
+      <input type="number" id="income" />
+      <label for="expense">Enter expense:</label>
+      <input type="number" id="expense" />
+
+      
+      <input type="submit" value="Add">
     </form>
-    <div id="resultado-div"></div>
+    <div id="transaction-div"></div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
